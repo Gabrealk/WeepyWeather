@@ -25,8 +25,8 @@ function Home({ navigation }) {
     return (
       <>
       <SafeAreaView style={{ flex: 1 }}>
-      <List tasks={tasks}/>
-      <Input addTask={addTask}/>
+      {/*<List tasks={tasks}/>
+      <Input addTask={addTask}/>*/}
       <View style={{ flex: 1, justifyContent: 'flex-end', marginBottom: 20 }}>
         <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginHorizontal: 20 }}>
           <Button title="Go to search page" onPress={() => navigation.navigate('Search')}/>
@@ -36,6 +36,7 @@ function Home({ navigation }) {
     </SafeAreaView>
     </>
     );
+
 }
 
 export default Home;
