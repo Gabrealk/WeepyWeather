@@ -23,13 +23,16 @@ function Search({  }) {
 
     return (
         <>
-            <SafeAreaView>
-                <View style={styles.blueBackGround}>
-                    <List tasks={tasks}/>
-                    <Input addTask={addTask}/>
-                    <View style={{ flex: 1, justifyContent: 'flex-end', marginBottom: 20 }}>
+            <SafeAreaView style={styles.blueBackGround}>
+                    <View>
+                        <List tasks={tasks}/>
+                        <Input addTask={addTask}/>
+                        <View style={{ flex: 1, justifyContent: 'flex-end', marginBottom: 20 }}/>
                     </View>
-                </View>
+
+                    <View style={styles.Weekbox}>
+                        <Text>city1 placeholder</Text>
+                    </View>
                 
             </SafeAreaView>
         </>
@@ -53,6 +56,7 @@ const styles = StyleSheet.create({
 
       blueBackGround: {
         backgroundColor: 'royalblue',
+        padding:50,
       },
 
     text: {
