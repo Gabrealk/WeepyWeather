@@ -21,22 +21,21 @@ function Search({  }) {
         }
     };
 
-    return (
-        <>
-            <SafeAreaView style={styles.blueBackGround}>
-                    <View>
-                        <List tasks={tasks}/>
-                        <Input addTask={addTask}/>
-                        <View style={{ flex: 1, justifyContent: 'flex-end', marginBottom: 20 }}/>
-                    </View>
-
-                    <View style={styles.Weekbox}>
-                        <Text>city1 placeholder</Text>
-                    </View>
-                
-            </SafeAreaView>
-        </>
-    );
+  return (
+    <>
+      <SafeAreaView style={styles.blueBackGround}>
+          <View>
+              <List tasks={tasks}/>
+              <Input addTask={addTask}/>
+              <View style={{ flex: 1, justifyContent: 'flex-end', marginBottom: 20 }}/>
+          </View>
+          <View style={styles.Weekbox}>
+              <Text>city1 placeholder</Text>
+          </View>
+              
+      </SafeAreaView>
+    </>
+  );
 }
 
 const styles = StyleSheet.create({

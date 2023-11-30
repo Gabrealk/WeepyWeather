@@ -1,5 +1,5 @@
 import React from "react";
-import {View, Text, Image, StyleSheet} from 'react-native';
+import {View, Text, Image, StyleSheet, Button} from 'react-native';
 
 function Weekly({ }) {
     return (
