@@ -54,6 +54,7 @@ function Home({ navigation }) {
         fetchWeatherData();
       }, []);
 
+      
     
   return (
     <>
