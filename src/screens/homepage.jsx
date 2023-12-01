@@ -55,44 +55,47 @@ function Home({ navigation }) {
       }, []);
 
     
-    return (
-      <>
+  return (
+    <>
       <View style={{ flex: 1 }}>
         {/*<List tasks={tasks}/>
         <Input addTask={addTask}/>*/}
 
           {/**main page and forecast screen */}
-
-          <Text style={{ fontSize: 24, color: 'white', marginBottom: 20, backgroundColor: "royalblue" }}>
-            Today's Weather
-          </Text>
-
-
+            <View style={{backgroundColor: "royalblue"}}>
+              <Text style={{ fontSize: 24, color: 'white', marginBottom: 20, alignSelf: "center" }}>
+                Today's Weather
+              </Text>
 
 
+            </View>
+          
 
-          <View style={{ flex: 1, justifyContent: 'flex-end', marginBottom: 20 }}>
-        <View
-          style={{
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            marginHorizontal: 20,
-          }}
-        >
-          <Button
-            title="Go to search page"
-            onPress={() => navigation.navigate('Search')}
-          />
-          <Button
-            title="Go to weekly page"
-            onPress={() => navigation.navigate('Weekly')}
-          />
+
+
+
+
+        <View style={{ flex: 1, justifyContent: 'flex-end', marginBottom: 20 }}>
+          <View
+            style={{
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              marginHorizontal: 20,
+            }}>
+
+            <Button
+              title="Go to search page"
+              onPress={() => navigation.navigate('Search')}
+            />
+            <Button
+              title="Go to weekly page"
+              onPress={() => navigation.navigate('Weekly')}
+            />
+          </View>
         </View>
       </View>
-      </View>
     </>
-    );
-
-}
+  );
+};
 
 export default Home;

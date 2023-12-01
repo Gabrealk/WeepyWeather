@@ -13,6 +13,8 @@ function Weekly({ }) {
                     <Image 
                         source={require("Assets/cloud.png")}
                         style={styles.image}/>
+
+                        <Text>Style this text to the right for the APi info</Text>
                 </View>
 
                 <View style={styles.Weekbox}>
@@ -20,6 +22,8 @@ function Weekly({ }) {
                     <Image 
                         source={require("Assets/heavyrain.png")}
                         style={styles.image}/>
+
+                        <Text>Style this text to the right for the APi info</Text>
                 </View>
 
                 <View style={styles.Weekbox}>
@@ -27,6 +31,8 @@ function Weekly({ }) {
                     <Image 
                         source={require("Assets/mist.png")}
                         style={styles.image}/>
+
+                        <Text>Style this text to the right for the APi info</Text>
                 </View>
 
                 <View style={styles.Weekbox}>
@@ -34,6 +40,8 @@ function Weekly({ }) {
                     <Image 
                         source={require("Assets/moderaterain.png")}
                         style={styles.image}/>
+
+                        <Text>Style this text to the right for the APi info</Text>
                 </View>
 
                 <View style={styles.Weekbox}>
@@ -41,6 +49,8 @@ function Weekly({ }) {
                     <Image 
                         source={require("Assets/partlycloudy.png")}
                         style={styles.image}/>
+
+                        <Text>Style this text to the right for the APi info</Text>
                 </View>
 
                 <View style={styles.Weekbox}>
@@ -48,6 +58,8 @@ function Weekly({ }) {
                     <Image 
                         source={require("Assets/sun.png")}
                         style={styles.image}/>
+
+                        <Text>Style this text to the right for the APi info</Text>
                 </View>
 
                 <View style={styles.Weekbox}>
@@ -55,6 +67,8 @@ function Weekly({ }) {
                     <Image 
                         source={require("Assets/sun.png")}
                         style={styles.image}/>
+
+                        <Text>Style this text to the right for the APi info</Text>
                 </View>
 
                 <View style={styles.footerBox}>
