@@ -32,7 +32,7 @@ function Search({  }) {
           <View style={styles.Weekbox}>
               <Text>city1 placeholder</Text>
           </View>
-              
+
       </SafeAreaView>
     </>
   );
