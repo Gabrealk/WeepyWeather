@@ -1,0 +1,6 @@
+Only these stock images were borrowed from a public github repositry
+here is the link to the images: 
+https://github.com/syednomishah/Weather-App-React-Native/tree/main/assets/images
+
+this is the official citation: S.Noman. weather images. Accessed: Oct, 30, 2023. [Online Image]. Available:
+https://github.com/syednomishah/Weather-App-React-Native/tree/main/assets/images
