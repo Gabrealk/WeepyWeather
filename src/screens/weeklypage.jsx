@@ -11,7 +11,7 @@ function Weekly({ }) {
                 <View style={styles.Weekbox}>
                     <Text style={styles.Headertext}>Monday</Text>
                     <Image 
-                        source={require("Assets/cloud.png")}
+                        source={require("../Assets/cloud.png")}
                         style={styles.image}/>
 
                         <Text>Style this text to the right for the APi info</Text>
@@ -20,7 +20,7 @@ function Weekly({ }) {
                 <View style={styles.Weekbox}>
                     <Text style={styles.Headertext}>Tuesday</Text>
                     <Image 
-                        source={require("Assets/heavyrain.png")}
+                        source={require("../Assets/heavyrain.png")}
                         style={styles.image}/>
 
                         <Text>Style this text to the right for the APi info</Text>
@@ -29,7 +29,7 @@ function Weekly({ }) {
                 <View style={styles.Weekbox}>
                     <Text style={styles.Headertext}>Wednesday</Text>
                     <Image 
-                        source={require("Assets/mist.png")}
+                        source={require("../Assets/mist.png")}
                         style={styles.image}/>
 
                         <Text>Style this text to the right for the APi info</Text>
@@ -38,7 +38,7 @@ function Weekly({ }) {
                 <View style={styles.Weekbox}>
                     <Text style={styles.Headertext}>Thursday</Text>
                     <Image 
-                        source={require("Assets/moderaterain.png")}
+                        source={require("../Assets/moderaterain.png")}
                         style={styles.image}/>
 
                         <Text>Style this text to the right for the APi info</Text>
@@ -47,7 +47,7 @@ function Weekly({ }) {
                 <View style={styles.Weekbox}>
                     <Text style={styles.Headertext}>Friday</Text>
                     <Image 
-                        source={require("Assets/partlycloudy.png")}
+                        source={require("../Assets/partlycloudy.png")}
                         style={styles.image}/>
 
                         <Text>Style this text to the right for the APi info</Text>
@@ -56,7 +56,7 @@ function Weekly({ }) {
                 <View style={styles.Weekbox}>
                     <Text style={styles.Headertext}>Saturday</Text>
                     <Image 
-                        source={require("Assets/sun.png")}
+                        source={require("../Assets/sun.png")}
                         style={styles.image}/>
 
                         <Text>Style this text to the right for the APi info</Text>
@@ -65,7 +65,7 @@ function Weekly({ }) {
                 <View style={styles.Weekbox}>
                     <Text style={styles.Headertext}>Sunday</Text>
                     <Image 
-                        source={require("Assets/sun.png")}
+                        source={require("../Assets/sun.png")}
                         style={styles.image}/>
 
                         <Text>Style this text to the right for the APi info</Text>
