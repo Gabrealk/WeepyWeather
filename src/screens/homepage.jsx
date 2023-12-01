@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Alert, SafeAreaView, Button, View, Text } from 'react-native';
+import { Alert, SafeAreaView, StyleSheet ,Button, View, Text, Image, paddingVertical } from 'react-native';
 import List from '../components/List';
 import Input from '../components/Inputbar';
 
@@ -62,10 +62,23 @@ function Home({ navigation }) {
         <Input addTask={addTask}/>*/}
 
           {/**main page and forecast screen */}
-            <View style={{backgroundColor: "royalblue"}}>
+            <View style={{backgroundColor: "royalblue", paddingVertical: 180}}>
               <Text style={{ fontSize: 24, color: 'white', marginBottom: 20, alignSelf: "center" }}>
                 Today's Weather
               </Text>
+
+              <Text style={{ fontSize: 24, color: 'white', marginBottom: 20, alignSelf: "center" }}>
+                code in day with API
+              </Text>
+
+              <Image
+              source={require("Assets/sun.png")}
+              style={styles.image}
+              />
+
+              <Text style={{ fontSize: 24, color: 'white', marginBottom: 20, alignSelf: "center" }}>
+                code in day location with API
+              </Text>  
 
 
             </View>
@@ -97,5 +110,15 @@ function Home({ navigation }) {
     </>
   );
 };
+
+const styles = StyleSheet.create({
+    image: {
+      width: 100,
+      height: 100,
+      resizeMode: 'contain',
+      alignSelf: 'center',
+    },
+
+});
 
 export default Home;
