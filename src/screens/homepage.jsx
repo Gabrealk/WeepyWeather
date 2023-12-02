@@ -44,7 +44,7 @@ function Home({ navigation }) {
         </View>
     </SafeAreaView>
     </>
-    );
+  );
 }
 
 const styles = StyleSheet.create({
