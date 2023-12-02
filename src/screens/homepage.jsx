@@ -73,7 +73,7 @@ function Home({ navigation }) {
               </Text>
 
               <Image
-              source={require("Assets/sun.png")}
+              source={require('../Assets/sun.png')}
               style={styles.image}
               />
 
